@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "route": "/rick-morty-api/*",
+        "serve": "/rick-morty-api"
+      },
+      {
+        "route": "/*",
+        "rewrite": "/index.html"
+      }
+    ]
+  }
